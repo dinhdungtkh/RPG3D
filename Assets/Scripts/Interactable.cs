@@ -1,14 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 namespace TKH3DCoffee
 {
 
     [RequireComponent(typeof(ColorOnHover))]
     public class Interactable : MonoBehaviour
     {
-
         public float radius = 3f;
         public Transform interactionTransform;
 
@@ -59,6 +55,5 @@ namespace TKH3DCoffee
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(interactionTransform.position, radius);
         }
-
     }
 }
