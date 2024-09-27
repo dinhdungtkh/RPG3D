@@ -7,12 +7,12 @@ namespace TKH3DCoffee
         public LayerMask movementMask;      // The ground
         public LayerMask interactionMask;
         PlayerMotor motor;
-
-        Camera cam;
+        [SerializeField]
+        protected Camera cam;
         public void Start()
         {
             motor = GetComponent<PlayerMotor>();
-            cam = Camera.main;
+            
         }
 
         public void Update()
