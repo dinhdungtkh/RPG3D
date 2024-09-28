@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cofffe3D.unity
+    guid: 3a840e2949888ba4bab2992783d49d90
   m_configObjects: {}
